@@ -38,6 +38,7 @@ h1 {
 .byline {
   font-style: italic;
   color: #5A5A5A;
+ text-align: center;
 }
 
 img {
