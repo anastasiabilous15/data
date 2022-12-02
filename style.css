@@ -24,19 +24,20 @@ html, body {
     background-color: #FFFACD
 }
 
+.container {
+  display: block;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 h1 {
   display: block;
   text-align: center;
 }
 
-p1 {
-  text-align: center;
-}
-
-#byline {
+.byline {
   font-style: italic;
   color: DarkOrange;
-  text-align: center;
 }
 
 img {
@@ -44,10 +45,9 @@ img {
   width: 100%
 }
 
-.container {
-  display: block;
-  max-width: 1200px;
-  margin: 0 auto;
+.caption {
+ color: #808080;
+ font-style: italic;
 }
 
 /*********************************************************************
@@ -69,7 +69,10 @@ img {
   padding: 10px;
 }
 
-}
+img {
+ max-width: 1200px;
+ margin: 0 auto;
+ }
 
 /*********************************************************************
   YOUR DESKTOP-ONLY STYLES GO HERE
